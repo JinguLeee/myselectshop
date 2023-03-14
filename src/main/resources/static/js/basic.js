@@ -446,8 +446,8 @@ function setMyprice() {
         },
         error(error, status, request) {
             console.error(error);
-            logout();
-            window.location.href = host + "/api/user/login-page";
+            // logout();
+            // window.location.href = host + "/api/user/login-page";
         }
     })
 }
